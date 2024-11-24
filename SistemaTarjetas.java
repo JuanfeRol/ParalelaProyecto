@@ -4,6 +4,7 @@ import java.util.Map;
 public class SistemaTarjetas {
     private final Map<String, Tarjeta> tarjetas;
 
+    //Constructor
     public SistemaTarjetas(int numeroTarjetas, double saldoInicial) {
         tarjetas = new HashMap<>();
         for (int i = 0; i < numeroTarjetas; i++) {
